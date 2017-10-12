@@ -1,0 +1,102 @@
+@CHARSET "utf-8";
+ h1{
+ 	margin: 20px;
+ }
+ h3{
+ 	margin: 20px;
+ }
+  
+  body{
+  	background-image: url(../image/image.jpg);
+  	background-repeat: no-repeat;
+  	background-size: 1920px 1020px;
+  }
+#content{
+  	text-align: center;
+  	line-height: 30px;
+  	padding: 200px;margin: 200px;    
+  	border-style: solid;
+  	border-width: 10px;
+  	border-color: white; 
+  	color: black;
+  	font-size: 70px;
+  	line-height: 0.5em;
+
+  }
+  #one{
+  	width: 500px;
+  	height: 650px;
+  	padding: 50px;
+  	float: left;
+  }
+  .sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+#text1{
+	margin: 50px;
+}
+#two{
+	width: 500px;
+  	height: 700px;
+  	padding: 50px;
+  	float: left;
+
+}
+#text2{
+	margin: 50px;
+}
+#three{
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#text3{
+	margin: 50px;
+
+}
+#four{
+	width: 300px;
+  	height: 300px;
+  	float: left;
+
+}
+#dog1{
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+	transform: rotate(90deg);
+}
+#dog2{
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+	transform: rotate(90deg);
+}
+#dog3{
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+}
+
+#dog5{
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+}
+#dog6{
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+}
+#dog7{
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+}
+  
+  
