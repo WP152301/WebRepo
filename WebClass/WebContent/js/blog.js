@@ -8,6 +8,7 @@ $(document).ready(function () {
 			var id = $('#id').val();
 			var pwd = $('#pwd').val();
 
+			$('#pwd').val('');
 			$.post("/WebClass/bloglogin",
 					{ id: id, pwd: pwd },
 					function(data) {
@@ -18,7 +19,6 @@ $(document).ready(function () {
 						if(data.msg=="error"){
 							myModal.find('.modal-title').text('로그인 실패');
 							myModal.find('.modal-body').text('로그인에 실패했습니다.');
-							
 						} else {
 							myModal.find('.modal-title').text('로그인 결과');
 							myModal.find('.modal-body').text(data.id + '님 로그인 되었습니다.');

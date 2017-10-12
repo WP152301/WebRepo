@@ -43,12 +43,6 @@
     %>
     <form class="form-inline my-2 my-lg-0" id="loginForm">
       <input class="form-control mr-sm-2" type="text" placeholder="ID" id="id" 
-      value="<%if(session.getAttribute("tempId")!=null) { 
-      out.print(session.getAttribute("tempId"));}
-      %>"
-      
-      
-      
       
       required>
       <input class="form-control mr-sm-2" type="password" placeholder="PWD" id="pwd" required>

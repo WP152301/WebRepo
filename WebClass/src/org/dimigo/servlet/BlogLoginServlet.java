@@ -76,7 +76,6 @@ public class BlogLoginServlet extends HttpServlet {
 			String json = gson.toJson(object);
 			System.out.println(json);
 			out.println(json);
-			session.setAttribute("tempId", id);
 		}
 
 	}
